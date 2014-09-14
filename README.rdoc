@@ -2,7 +2,7 @@
 
 Rails api by ZaingZ 
 
-Deployed on Heroku
+Deployed on Heroku with codeship
 
 
 Things you may want to cover:
