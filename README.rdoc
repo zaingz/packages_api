@@ -1,6 +1,8 @@
 == README
 
-Rails api by ZaingZ
+Rails api by ZaingZ 
+
+Deployed on Heroku
 
 
 Things you may want to cover:
