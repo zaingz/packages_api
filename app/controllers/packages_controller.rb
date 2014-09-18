@@ -24,7 +24,7 @@ class PackagesController < ApplicationController
   # PATCH/PUT /packages/1.json
   def update
     @package = Package.find(params[:id])
-    //TODO: check only correct packages are updated
+    #TODO: check only correct packages are updated
     if @package.update(package_params)
       head :no_content
     else
