@@ -20,7 +20,7 @@
     <data-source source="LOCAL" name="Rails packages_api: production" uuid="19dfacd7-b1e2-4a27-9c40-a8b8d309f9c8">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:packages_api_production</jdbc-url>
+      <jdbc-url>jdbc:postgresql:packages_api</jdbc-url>
       <user-name>zain</user-name>
       <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
       <libraries />
