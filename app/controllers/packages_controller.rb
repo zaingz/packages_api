@@ -14,7 +14,7 @@ class PackagesController < ApplicationController
     @package = Package.new(package_params)
     @package.user_id = @current_user.id
     if @package.save
-      render json: @package, status: :created, location: @package
+      render json: @package, status: :created
     else
       render json: @package.errors, status: :unprocessable_entity
     end
@@ -44,6 +44,6 @@ class PackagesController < ApplicationController
   private
 
   def package_params
-    params.require(:package).permit(:tittle, :description, :src_lat, :src_lon, :dest_lat, :dest_lon, :delivered, :image)
+    params.require(:package).permit(:tittle, :description, :src_lat, :src_lon, :dest_lat, :dest_lon, :delivered)
   end
 end

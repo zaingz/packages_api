@@ -7,14 +7,11 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  # For details on connection pooling, see rails configuration guide
-  # http://guides.rubyonrails.org/configuring.html#database-pooling
-  username: eioyaavkjaqtyo
-  password: 87nyvd02aw03JEUW1-c1AtVi6G
-  hostname: ec2-54-243-44-191.compute-1.amazonaws.com
+
+  username: zain
+  password: niazssc
+  hostname: 127.0.0.1
   pool: 5
-  port: 5432
-  url:  postgres://eioyaavkjaqtyo:87nyvd02aw03JEUW1-c1AtVi6G@ec2-54-243-44-191.compute-1.amazonaws.com:5432/de75si4atcivu2
 
 development:
   <<: *default
@@ -28,5 +25,15 @@ test:
   database: packages_api_test
 
 production:
-  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  username: eioyaavkjaqtyo
+  password: 87nyvd02aw03JEUW1-c1AtVi6G
+  hostname: ec2-54-243-44-191.compute-1.amazonaws.com
+  pool: 5
+  port: 5432
+  url:  postgres://eioyaavkjaqtyo:87nyvd02aw03JEUW1-c1AtVi6G@ec2-54-243-44-191.compute-1.amazonaws.com:5432/de75si4atcivu2
+
   database: de75si4atcivu2

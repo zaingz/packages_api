@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="618169594">
+  <component name="DataSourceManagerImpl" format="xml" hash="2259631462">
     <data-source source="LOCAL" name="Rails packages_api: development" uuid="fa7cb35e-108d-4b6f-86f7-5635c88f5fdc">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -20,9 +20,9 @@
     <data-source source="LOCAL" name="Rails packages_api: production" uuid="19dfacd7-b1e2-4a27-9c40-a8b8d309f9c8">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:packages_api</jdbc-url>
-      <user-name>zain</user-name>
-      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/de75si4atcivu2</jdbc-url>
+      <user-name>eioyaavkjaqtyo</user-name>
+      <user-password>df92df9ddfc4dfd3dfdcdfcedf9adf98dfcbdfdddf9adf99dfe0dfefdfffdffddf9bdf87dfc9df9bdfebdfdedffcdfc3df9cdfed</user-password>
       <libraries />
     </data-source>
   </component>

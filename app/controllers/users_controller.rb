@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   before_filter :restrict_access, except: [:create]
 
   def index
-    render json: @current_user
+    render json: @current_user, except: :password_digest
   end
 
   def create
